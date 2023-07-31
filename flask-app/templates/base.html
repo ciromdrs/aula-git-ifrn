@@ -1,0 +1,24 @@
+<!document HTML>
+<head>
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}"/>
+{% endblock %}
+</head>
+
+<body>
+{% block corpo %}
+Substitua este conteúdo usando:
+{% raw %}
+
+<div>
+{% block corpo %}
+<div>
+Seu conteúdo aqui
+</div>
+{% endblock %}
+</div>
+
+{% endraw %}
+
+{% endblock %}
+</body>

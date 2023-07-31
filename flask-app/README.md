@@ -15,36 +15,43 @@ Está escrito em Flask, mas isto não importa tanto para a aula.
 
 
 3. Vá para dentro do novo ambiente virtual e ative-o:
-
+   
+    No Linux:
     ```
     cd envaula
     source bin/activate
     ```
 
+    No Windows:
+    ```
+    cd envaula
+    .\Scripts\activate.bat
+    ```
+
     Perceba o `(envaula)` adicionado ao início da linha no terminal.
 
-4. Clone o repositório:
+5. Clone o repositório:
 
     ```
     git clone https://github.com/ciromdrs/aula-git-ifrn
     ```
 
-5. Vá para dentro da pasta da aplicação Flask:
+6. Vá para dentro da pasta da aplicação Flask:
 
     ```
     cd aula-git-ifrn/flask-app
     ```
 
-6. Instale as dependências:
+7. Instale as dependências:
 
     ```
     pip install -r requirements.txt
     ```
 
-7. Execute o projeto Flask no modo depuração:
+8. Execute o projeto Flask no modo depuração:
 
     ```
     flask --app aula_git.py run --debug
     ```
 
-8. Acesse `localhost:5000` no navegador. Você deve ver uma página web.
+9. Acesse `localhost:5000` no navegador. Você deve ver uma página web.
